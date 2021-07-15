@@ -22,8 +22,8 @@ gameColumn = int(input("Please insert the number of column: "))
 gameRow = int(input("Plese insert the number of row: "))
 currentField = []
 columnField = []
-updateCurrentField(gameColumn,gameRow)
-#currentField = [[" "," "," "],[" "," "," "],[" "," "," "]]
+updateCurrentField(gameColumn,gameRow) # creat the initial field generaly by function
+#currentField = [[" "," "," "],[" "," "," "],[" "," "," "]] # insert the initial field manually
 drawing(gameRow,gameColumn,currentField)
 Player = 1
 while(True):
